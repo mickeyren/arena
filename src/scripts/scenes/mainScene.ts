@@ -11,7 +11,8 @@ export default class MainScene extends Phaser.Scene {
   create() {
     const map = this.make.tilemap({ key: 'outdoor_map' })
     const tileset = map.addTilesetImage('outdoor', 'outdoor_tileset'); // key: texture key
-    map.createLayer('2', tileset)
+    map.createLayer('Ground', tileset)
+    map.createLayer('Fringe', tileset)
 
 
     new PhaserLogo(this, this.cameras.main.width / 2, 0)
@@ -23,7 +24,7 @@ export default class MainScene extends Phaser.Scene {
         color: '#000000',
         fontSize: '24px'
       })
-      .setOrigin(1, 0)
+      .setOrigin(0, 0)
   }
 
   update() {
