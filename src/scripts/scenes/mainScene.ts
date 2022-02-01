@@ -14,6 +14,9 @@ export default class MainScene extends Phaser.Scene {
     map.createLayer('Ground', tileset)
     map.createLayer('Fringe', tileset)
 
+    const player = this.add.sprite(50, 50, 'sprites', 'knight_m_idle_anim_f0.png');
+
+
 
     new PhaserLogo(this, this.cameras.main.width / 2, 0)
     this.fpsText = new FpsText(this)

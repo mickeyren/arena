@@ -13,7 +13,7 @@ const config = {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: DEFAULT_WIDTH,
-    height: DEFAULT_HEIGHT
+    height: DEFAULT_HEIGHT,
   },
   scene: [PreloadScene, MainScene],
   physics: {
@@ -22,7 +22,8 @@ const config = {
       debug: false,
       gravity: { y: 400 }
     }
-  }
+  },
+  pixelArt: true
 }
 
 window.addEventListener('load', () => {

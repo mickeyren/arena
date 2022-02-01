@@ -11,6 +11,7 @@ export default class PreloadScene extends Phaser.Scene {
   	// load the JSON file
   	this.load.tilemapTiledJSON('outdoor_map', 'assets/maps/orthogonal-outside.json')
 
+    this.load.multiatlas('sprites', 'assets/sprites.json', 'assets');
   }
 
   create() {
