@@ -1,0 +1,11 @@
+[{
+  "name": "Pixie",
+  "health": 4,
+  "maxDamage": 4
+ },
+ {
+  "name": "Salamander",
+  "health": 4,
+  "maxDamage": 4
+ }
+]

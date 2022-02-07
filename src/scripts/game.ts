@@ -1,6 +1,12 @@
 import 'phaser'
 import MainScene from './scenes/mainScene'
 import PreloadScene from './scenes/preloadScene'
+import BattleScene from './scenes/battleScene'
+import GridEngine from 'grid-engine'
+
+// Rex Plugins
+import UIPlugin from 'phaser3-rex-plugins/templates/ui/ui-plugin.js'
+import InventoryScene from './scenes/inventoryScene'
 
 const DEFAULT_WIDTH = 720
 const DEFAULT_HEIGHT = 496
@@ -13,9 +19,9 @@ const config = {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: DEFAULT_WIDTH,
-    height: DEFAULT_HEIGHT,
+    height: DEFAULT_HEIGHT
   },
-  scene: [PreloadScene, MainScene],
+  scene: [PreloadScene, MainScene, BattleScene, InventoryScene],
   physics: {
     default: 'arcade',
     arcade: {
@@ -23,9 +29,35 @@ const config = {
       gravity: { y: 400 }
     }
   },
-  pixelArt: true
+  pixelArt: true,
+  plugins: {
+    scene: [
+      {
+        key: 'gridEngine',
+        plugin: GridEngine,
+        mapping: 'gridEngine'
+      },
+      {
+        key: 'rexUI',
+        plugin: UIPlugin,
+        mapping: 'rexUI'
+      }
+    ]
+  }
+}
+
+class Arena extends Phaser.Game {
+  constructor(config) {
+    super(config)
+  }
+
+  createEnemy() {
+    console.log(this.cache.json.get('enemiesData'))
+  }
 }
 
 window.addEventListener('load', () => {
-  const game = new Phaser.Game(config)
+  const game = new Arena(config)
 })
+
+export default Arena

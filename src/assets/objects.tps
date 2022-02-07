@@ -185,24 +185,16 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f0.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f1.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f2.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f0.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f1.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f2.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/flask_big_blue.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/flask_big_green.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/flask_big_red.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/flask_big_yellow.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_idle_anim_f0.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_idle_anim_f1.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_idle_anim_f2.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_idle_anim_f3.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_run_anim_f0.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_run_anim_f1.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_run_anim_f2.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_run_anim_f3.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f0.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f1.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f2.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f0.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f1.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f2.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/flask_big_blue.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/flask_big_green.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/flask_big_red.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/flask_big_yellow.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0,0</point_f>
@@ -217,10 +209,10 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f0.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f1.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f2.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f3.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f0.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f1.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f2.png</key>
+            <key type="filename">../../graphics/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f3.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0,0</point_f>
@@ -235,15 +227,31 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_hit_anim_f0.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_idle_anim_f0.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_idle_anim_f1.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_idle_anim_f2.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_idle_anim_f3.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_run_anim_f0.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_run_anim_f1.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_run_anim_f2.png</key>
-            <key type="filename">../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_run_anim_f3.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownAttack02.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownClimb.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftAttack02.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftClimb.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightAttack02.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightClimb.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpAttack02.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpClimb.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownWalk.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftWalk.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightWalk.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpWalk.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownRun.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftRun.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightRun.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpRun.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0,0</point_f>
@@ -252,47 +260,294 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>4,7,8,14</rect>
+                <rect>72,12,144,24</rect>
                 <key>scale9Paddings</key>
-                <rect>4,7,8,14</rect>
+                <rect>72,12,144,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownAttack03.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftAttack03.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightAttack03.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpAttack03.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLefttIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightIdle.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpIdle.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>60,12,120,24</rect>
+                <key>scale9Paddings</key>
+                <rect>60,12,120,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLefttHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightLand.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpHurt.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpJump.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpLand.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>48,12,96,24</rect>
+                <key>scale9Paddings</key>
+                <rect>48,12,96,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownWalk.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftWalk.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightWalk.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpWalk.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>96,12,192,24</rect>
+                <key>scale9Paddings</key>
+                <rect>96,12,192,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpAttack01.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>132,12,264,24</rect>
+                <key>scale9Paddings</key>
+                <rect>132,12,264,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpDeath.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>120,12,240,24</rect>
+                <key>scale9Paddings</key>
+                <rect>120,12,240,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightAttack01.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpAttack01.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>252,12,504,24</rect>
+                <key>scale9Paddings</key>
+                <rect>252,12,504,24</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightDeath.png</key>
+            <key type="filename">../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpDeath.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0,0</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>108,12,216,24</rect>
+                <key>scale9Paddings</key>
+                <rect>108,12,216,24</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_idle_anim_f0.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_idle_anim_f1.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_idle_anim_f2.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_idle_anim_f3.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_run_anim_f0.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_run_anim_f1.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_run_anim_f2.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/imp_run_anim_f3.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_hit_anim_f0.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_idle_anim_f0.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_idle_anim_f1.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_idle_anim_f2.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_idle_anim_f3.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_run_anim_f0.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_run_anim_f1.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_run_anim_f2.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/knight_m_run_anim_f3.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/flask_big_blue.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/flask_big_green.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/flask_big_red.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/flask_big_yellow.png</filename>
-            <filename>.</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f0.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f1.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f2.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f0.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f1.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f2.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f0.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f1.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f2.png</filename>
-            <filename>../../../../Downloads/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f3.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f0.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f1.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_empty_open_anim_f2.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f0.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f1.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/chest_full_open_anim_f2.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f0.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f1.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f2.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/coin_anim_f3.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/flask_big_blue.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/flask_big_green.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/flask_big_red.png</filename>
+            <filename>../../graphics/0x72_DungeonTilesetII_v1.4/frames/flask_big_yellow.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpAttack02.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpAttack03.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpClimb.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Up/Png/WarriorUpWalk.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightAttack02.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightAttack03.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightClimb.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Right/Png/WarriorRightWalk.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftAttack02.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftAttack03.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftClimb.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Left/Png/WarriorLeftWalk.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownAttack02.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownAttack03.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownClimb.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0009_Lucifer_Warrior_Pixel_Art/Down/Png/WarriorDownWalk.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Down/Png/GoblinSlingerDownRun.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Left/Png/GoblinSlingerLeftRun.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Right/Png/GoblinSlingerRightRun.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0014_Lucifer_Goblin_Slinger_Pixel_Art/Up/Png/GoblinSlingerUpRun.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Down/Png/PossesedDownWalk.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLeftWalk.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLefttHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Left/Png/PossesedLefttIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Right/Png/PossesedRightWalk.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpAttack01.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpDeath.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpHurt.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpIdle.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpJump.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpLand.png</filename>
+            <filename>../../graphics/Foozle_2DC0012_Lucifer_Possessed_Pixel_Art/Up/Png/PossesedUpWalk.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

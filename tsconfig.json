@@ -17,6 +17,6 @@
     "moduleResolution": "node",
     "lib": ["dom", "esnext"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "node_modules/phaser3-rex-plugins"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

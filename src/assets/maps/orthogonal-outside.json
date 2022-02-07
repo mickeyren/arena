@@ -16,6 +16,12 @@
          "id":1,
          "name":"Ground",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"ge_charLayer",
+                 "type":"string",
+                 "value":"Ground"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":45,
@@ -28,6 +34,12 @@
          "id":2,
          "name":"Fringe",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"ge_charLayer",
+                 "type":"string",
+                 "value":"Fringe"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":45,

@@ -5,12 +5,13 @@
   "homepage": "https://github.com/yandeu/phaser-project-template#readme",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --config webpack/webpack.dev.js",
+    "start": "npm run prettier:watch & webpack serve --config webpack/webpack.dev.js",
     "build": "rimraf dist && webpack --config webpack/webpack.prod.js",
     "bundle": "npm run build",
     "serve": "serve dist",
     "format": "prettier --check src/scripts/**",
-    "format:write": "prettier --write src/scripts/**"
+    "format:write": "prettier --write src/scripts/**",
+    "prettier:watch": "onchange 'src/**/*.ts' -- prettier --write {{changed}}"
   },
   "keywords": [
     "Phaser",
@@ -39,13 +40,16 @@
   },
   "license": "MIT",
   "dependencies": {
-    "phaser": "^3.55.2"
+    "grid-engine": "^2.12.0",
+    "phaser": "^3.55.2",
+    "phaser3-rex-plugins": "^1.1.66"
   },
   "devDependencies": {
     "@yandeu/prettier-config": "^0.0.3",
     "copy-webpack-plugin": "^10.1.0",
     "html-webpack-plugin": "^5.5.0",
     "javascript-obfuscator": "^3.0.0",
+    "onchange": "^7.1.0",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
     "serve": "^13.0.2",

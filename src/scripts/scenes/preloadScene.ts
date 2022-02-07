@@ -8,10 +8,17 @@ export default class PreloadScene extends Phaser.Scene {
 
     this.load.image('outdoor_tileset', 'assets/maps/buch-outdoor.png')
 
-  	// load the JSON file
-  	this.load.tilemapTiledJSON('outdoor_map', 'assets/maps/orthogonal-outside.json')
+    // load the JSON file
+    this.load.tilemapTiledJSON(
+      'outdoor_map',
+      'assets/maps/orthogonal-outside.json'
+    )
 
-    this.load.multiatlas('sprites', 'assets/sprites.json', 'assets');
+    this.load.multiatlas('sprites', 'assets/sprites.json', 'assets')
+
+    this.load.image('inventory', 'assets/img/inventory_preset.png')
+
+    this.load.json('enemiesData', 'assets/enemies.json')
   }
 
   create() {
