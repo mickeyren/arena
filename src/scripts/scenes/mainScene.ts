@@ -4,6 +4,7 @@ import Sprite from '../objects/sprite'
 import { GridEngine, Direction } from 'grid-engine'
 import GameTextBox from '../objects/textbox'
 import Arena from '../game'
+import Input from '../input'
 
 export default class MainScene extends Phaser.Scene {
   fpsText
@@ -20,9 +21,6 @@ export default class MainScene extends Phaser.Scene {
     const tileset = map.addTilesetImage('outdoor', 'outdoor_tileset') // key: texture key
     map.createLayer('Ground', tileset)
     map.createLayer('Fringe', tileset)
-
-    const gameWidth = this.sys.game.canvas.width
-    const gameHeight = this.sys.game.canvas.height
 
     const player = new Sprite(this, {
       x: 150,
@@ -123,19 +121,7 @@ export default class MainScene extends Phaser.Scene {
       })
       .setOrigin(0, 0)
 
-    this.input.keyboard.on('keydown-I', (event) => {
-      this.scene.launch('InventoryScene')
-    })
-    this.input.keyboard.on('keydown-ESC', (event) => {
-      this.scene.sleep('InventoryScene')
-      this.scene.sleep('BattleScene')
-    })
-
-    this.input.keyboard.on('keydown-B', (event) => {
-      this.scene.launch('BattleScene')
-    })
-
-    this.scene.launch('ChatScene')
+    new Input(this.scene, this.input)
   }
 
   getStopFrame(direction) {
