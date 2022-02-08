@@ -22,27 +22,39 @@ export default class ChatScene extends Phaser.Scene {
     let { width, height } = this.sys.game.canvas
 
     const leftOffset = 100
-    this.rexUI.add
-      .roundRectangle(
-        0,
-        height / 2 + 10 + leftOffset,
-        width,
-        160,
-        10,
-        COLOR_DARK
-      )
-      .setOrigin(0, 0.5)
+    // this.rexUI.add
+    //   .roundRectangle(
+    //     0,
+    //     height / 2 + 10 + leftOffset,
+    //     width,
+    //     160,
+    //     10,
+    //     COLOR_DARK
+    //   )
+    //   .setOrigin(0, 0.5)
 
-    const left = this.add.sprite(50, height / 2 + leftOffset, 'sold1')
-    left.setDisplaySize(200, 200)
+    // const left = this.add.sprite(50, height / 2 + leftOffset, 'sold1')
+    // left.setDisplaySize(200, 200)
 
-    const text =
-      'You, slave. Get up here. I have things for you. You need to get ready for your fight.'
+    const text = this.createTextBoxWithPortrait(0, height / 2, {
+      portrait: 'sold1',
+      text: 'You, slave. Get up here. I have things for you. You need to get ready for your fight.'
+    })
 
-    this.rexUI.add
+    this.createTextBoxWithPortrait(0, height - 190, {
+      portrait: 'sold2',
+      portraitRight: true,
+      text: 'Who are you? Where am I? Why am I in chains?'
+    })
+  }
+
+  createTextBoxWithPortrait(x, y, args) {
+    let { width, height } = this.sys.game.canvas
+
+    const textBox = this.rexUI.add
       .textBox({
-        x: 0,
-        y: height - 100,
+        x,
+        y,
 
         background: this.rexUI.add.roundRectangle(
           0,
@@ -64,7 +76,7 @@ export default class ChatScene extends Phaser.Scene {
           maxLines: 6
         }),
         space: {
-          left: 10,
+          left: args.portraitRight ? 20 : 155,
           right: 10,
           top: 10,
           bottom: 25,
@@ -72,11 +84,20 @@ export default class ChatScene extends Phaser.Scene {
           text: 10
         }
       })
-      .setOrigin(0, 0.5)
+      .setOrigin(0, 0)
       .layout()
-      .start(text, 5)
+      .start(args.text, 5)
 
-    const right = this.add.sprite(width - 100, height - 115, 'sold2')
-    right.setDisplaySize(200, 200)
+    if (args.portraitRight) {
+      this.add
+        .sprite(width - 200, textBox.y, args.portrait)
+        .setOrigin(0, 0)
+        .setDisplaySize(200, 200)
+    } else {
+      this.add
+        .sprite(0, textBox.y, args.portrait)
+        .setOrigin(0.2, 0)
+        .setDisplaySize(200, 200)
+    }
   }
 }
