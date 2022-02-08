@@ -22,6 +22,21 @@ export default class MainScene extends Phaser.Scene {
     map.createLayer('Ground', tileset)
     map.createLayer('Fringe', tileset)
 
+    const prisonMap = this.make.tilemap({ key: 'prison_map' })
+    const prisonTileset = prisonMap.addTilesetImage('prison', 'prison_tileset') // key: texture key
+
+    // prisonMap.createLayer('Walls', prisonTileset)
+    // prisonMap.createLayer('Doors', prisonTileset)
+    // prisonMap.createLayer('Decors', prisonTileset)
+    // prisonMap.createLayer('Floor', prisonTileset)
+
+    const cloudTilemap = this.make.tilemap({ key: 'cloud-city-map' })
+    cloudTilemap.addTilesetImage('cloud_tileset', 'tiles')
+    for (let i = 0; i < cloudTilemap.layers.length; i++) {
+      const layer = cloudTilemap.createLayer(i, 'cloud_tileset', 0, 0)
+      layer.scale = 3
+    }
+
     const player = new Sprite(this, {
       x: 150,
       y: 50,
@@ -36,10 +51,10 @@ export default class MainScene extends Phaser.Scene {
       x: 100,
       y: 50,
       key: 'gob',
-      frame: 'WarriorDownIdle.png',
+      frame: 'Punk_run.png',
       frameWidth: 48,
       frameHeight: 48,
-      endFrame: 5
+      endFrame: 6
     })
 
     const playerSprite = this.add.sprite(
@@ -48,6 +63,7 @@ export default class MainScene extends Phaser.Scene {
       'sprites',
       'knight_m_idle_anim_f0.png'
     )
+    playerSprite.setScale(4)
     this.anims.create({
       key: 'idle',
       frames: this.anims.generateFrameNames('sprites', {
@@ -58,7 +74,7 @@ export default class MainScene extends Phaser.Scene {
       }),
       frameRate: 8,
       repeat: -1,
-      yoyo: true
+      yoyo: false
     })
     this.anims.create({
       key: 'run',
@@ -70,13 +86,13 @@ export default class MainScene extends Phaser.Scene {
       }),
       frameRate: 20,
       repeat: -1,
-      yoyo: true
+      yoyo: false
     })
 
     // zoom and follow
-    const camera = this.cameras.main.setBounds(0, 0, 640, 340)
+    const camera = this.cameras.main.setBounds(0, 0, 20 * 48, 20 * 48)
     camera.zoomTo(
-      2, //zoom distance
+      1, //zoom distance
       0 // duration/speed of zoom
     )
     camera.startFollow(playerSprite)
@@ -87,14 +103,13 @@ export default class MainScene extends Phaser.Scene {
           id: 'player',
           sprite: playerSprite,
           // walkingAnimationMapping: 0,
-          startPosition: { x: 8, y: 8 },
-          charLayer: 'Ground'
+          startPosition: { x: 5, y: 4 },
+          charLayer: 'ground'
         }
       ]
     }
-
     this.gridEngine = (<any>this).gridEngine
-    this.gridEngine.create(map, gridEngineConfig)
+    this.gridEngine.create(cloudTilemap, gridEngineConfig)
     // this.gridEngine.moveTo('player', new Phaser.Math.Vector2(15, 20));
     this.gridEngine.movementStarted().subscribe(({ direction }) => {
       playerSprite.anims.play('run')

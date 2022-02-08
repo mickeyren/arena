@@ -19,6 +19,15 @@ export default class PreloadScene extends Phaser.Scene {
     this.load.image('inventory', 'assets/img/inventory_preset.png')
 
     this.load.json('enemiesData', 'assets/enemies.json')
+
+    this.load.image('prison_tileset', 'assets/maps/green-dungeon.png')
+    this.load.tilemapTiledJSON('prison_map', 'assets/maps/prison.json')
+
+    this.load.image('tiles', 'assets/maps/cloud_tileset.png')
+    this.load.tilemapTiledJSON(
+      'cloud-city-map',
+      'assets/maps/cloud_city_bridge_only.json'
+    )
   }
 
   create() {

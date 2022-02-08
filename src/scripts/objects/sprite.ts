@@ -22,15 +22,16 @@ export default class Sprite extends Phaser.GameObjects.Sprite {
       key: 'ene1',
       frames: this.anims.generateFrameNumbers(settings.key, {
         start: 0,
-        end: 5,
+        end: settings.endFrame,
         first: 0
       }),
-      frameRate: 15,
+      frameRate: 8,
       repeat: -1
     })
 
     const s = scene.add.sprite(settings.x, settings.y, '')
     s.play('ene1')
+    // s.setScale(0.5)
   }
 
   createSpriteFromFrames(scene, settings) {
@@ -58,7 +59,7 @@ export default class Sprite extends Phaser.GameObjects.Sprite {
         start: startFrame,
         end: endFrame
       }),
-      frameRate: 10,
+      frameRate: 4,
       repeat: -1,
       yoyo: true
     })

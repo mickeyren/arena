@@ -4,8 +4,8 @@
 			"image": "sprites.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 1016,
-				"h": 987
+				"w": 1017,
+				"h": 1005
 			},
 			"scale": 1,
 			"frames": [
@@ -892,27 +892,6 @@
 					}
 				},
 				{
-					"filename": "PossesedDownIdle.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 240,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 10,
-						"y": 11,
-						"w": 215,
-						"h": 30
-					},
-					"frame": {
-						"x": 761,
-						"y": 242,
-						"w": 215,
-						"h": 30
-					}
-				},
-				{
 					"filename": "PossesedRightWalk.png",
 					"rotated": false,
 					"trimmed": true,
@@ -927,10 +906,31 @@
 						"h": 31
 					},
 					"frame": {
-						"x": 760,
-						"y": 272,
+						"x": 761,
+						"y": 242,
 						"w": 256,
 						"h": 31
+					}
+				},
+				{
+					"filename": "GoblinSlingerUpRun.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 9,
+						"w": 257,
+						"h": 32
+					},
+					"frame": {
+						"x": 760,
+						"y": 273,
+						"w": 257,
+						"h": 32
 					}
 				},
 				{
@@ -949,9 +949,30 @@
 					},
 					"frame": {
 						"x": 718,
-						"y": 303,
+						"y": 305,
 						"w": 261,
 						"h": 31
+					}
+				},
+				{
+					"filename": "Punk_run.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 288,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 15,
+						"w": 259,
+						"h": 33
+					},
+					"frame": {
+						"x": 718,
+						"y": 336,
+						"w": 259,
+						"h": 33
 					}
 				},
 				{
@@ -969,8 +990,8 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 718,
-						"y": 334,
+						"x": 711,
+						"y": 369,
 						"w": 259,
 						"h": 32
 					}
@@ -990,31 +1011,31 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 711,
-						"y": 366,
+						"x": 675,
+						"y": 401,
 						"w": 259,
 						"h": 32
 					}
 				},
 				{
-					"filename": "GoblinSlingerUpRun.png",
+					"filename": "PossesedDownIdle.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 288,
+						"w": 240,
 						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 15,
-						"y": 9,
-						"w": 257,
-						"h": 32
+						"x": 10,
+						"y": 11,
+						"w": 215,
+						"h": 30
 					},
 					"frame": {
-						"x": 675,
-						"y": 398,
-						"w": 257,
-						"h": 32
+						"x": 669,
+						"y": 433,
+						"w": 215,
+						"h": 30
 					}
 				},
 				{
@@ -1032,8 +1053,8 @@
 						"h": 30
 					},
 					"frame": {
-						"x": 669,
-						"y": 430,
+						"x": 666,
+						"y": 463,
 						"w": 215,
 						"h": 30
 					}
@@ -1053,31 +1074,10 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 666,
-						"y": 460,
+						"x": 665,
+						"y": 493,
 						"w": 215,
 						"h": 34
-					}
-				},
-				{
-					"filename": "WarriorUpLand.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 240,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 13,
-						"y": 5,
-						"w": 214,
-						"h": 35
-					},
-					"frame": {
-						"x": 665,
-						"y": 494,
-						"w": 214,
-						"h": 35
 					}
 				},
 				{
@@ -1096,7 +1096,7 @@
 					},
 					"frame": {
 						"x": 665,
-						"y": 529,
+						"y": 527,
 						"w": 214,
 						"h": 32
 					}
@@ -1123,7 +1123,7 @@
 					}
 				},
 				{
-					"filename": "WarriorDownLand.png",
+					"filename": "WarriorUpLand.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -1133,35 +1133,14 @@
 					"spriteSourceSize": {
 						"x": 13,
 						"y": 5,
-						"w": 213,
+						"w": 214,
 						"h": 35
 					},
 					"frame": {
 						"x": 357,
 						"y": 578,
-						"w": 213,
+						"w": 214,
 						"h": 35
-					}
-				},
-				{
-					"filename": "WarriorRightDeath.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 240,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 10,
-						"w": 213,
-						"h": 31
-					},
-					"frame": {
-						"x": 357,
-						"y": 613,
-						"w": 213,
-						"h": 31
 					}
 				},
 				{
@@ -1179,8 +1158,8 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 354,
-						"y": 644,
+						"x": 357,
+						"y": 613,
 						"w": 214,
 						"h": 32
 					}
@@ -1200,10 +1179,52 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 276,
-						"y": 676,
+						"x": 354,
+						"y": 645,
 						"w": 214,
 						"h": 34
+					}
+				},
+				{
+					"filename": "WarriorDownLand.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 240,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 5,
+						"w": 213,
+						"h": 35
+					},
+					"frame": {
+						"x": 276,
+						"y": 679,
+						"w": 213,
+						"h": 35
+					}
+				},
+				{
+					"filename": "WarriorRightDeath.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 240,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 10,
+						"w": 213,
+						"h": 31
+					},
+					"frame": {
+						"x": 271,
+						"y": 714,
+						"w": 213,
+						"h": 31
 					}
 				},
 				{
@@ -1221,8 +1242,8 @@
 						"h": 33
 					},
 					"frame": {
-						"x": 271,
-						"y": 710,
+						"x": 270,
+						"y": 745,
 						"w": 213,
 						"h": 33
 					}
@@ -1242,8 +1263,8 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 270,
-						"y": 743,
+						"x": 262,
+						"y": 778,
 						"w": 213,
 						"h": 34
 					}
@@ -1264,30 +1285,9 @@
 					},
 					"frame": {
 						"x": 262,
-						"y": 777,
+						"y": 812,
 						"w": 213,
 						"h": 34
-					}
-				},
-				{
-					"filename": "WarriorLeftDeath.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 240,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 15,
-						"y": 10,
-						"w": 212,
-						"h": 31
-					},
-					"frame": {
-						"x": 262,
-						"y": 811,
-						"w": 212,
-						"h": 31
 					}
 				},
 				{
@@ -1306,9 +1306,30 @@
 					},
 					"frame": {
 						"x": 263,
-						"y": 842,
+						"y": 846,
 						"w": 212,
 						"h": 34
+					}
+				},
+				{
+					"filename": "WarriorLeftDeath.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 240,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 10,
+						"w": 212,
+						"h": 31
+					},
+					"frame": {
+						"x": 263,
+						"y": 880,
+						"w": 212,
+						"h": 31
 					}
 				},
 				{
@@ -1326,8 +1347,8 @@
 						"h": 31
 					},
 					"frame": {
-						"x": 263,
-						"y": 876,
+						"x": 260,
+						"y": 911,
 						"w": 212,
 						"h": 31
 					}
@@ -1348,9 +1369,30 @@
 					},
 					"frame": {
 						"x": 260,
-						"y": 907,
+						"y": 942,
 						"w": 212,
 						"h": 31
+					}
+				},
+				{
+					"filename": "PossesedDownHurt.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 9,
+						"w": 169,
+						"h": 32
+					},
+					"frame": {
+						"x": 260,
+						"y": 973,
+						"w": 169,
+						"h": 32
 					}
 				},
 				{
@@ -1368,9 +1410,30 @@
 						"h": 31
 					},
 					"frame": {
-						"x": 260,
-						"y": 938,
+						"x": 574,
+						"y": 559,
 						"w": 211,
+						"h": 31
+					}
+				},
+				{
+					"filename": "WarriorLeftAttack03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 240,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 10,
+						"w": 210,
+						"h": 31
+					},
+					"frame": {
+						"x": 571,
+						"y": 590,
+						"w": 210,
 						"h": 31
 					}
 				},
@@ -1389,31 +1452,10 @@
 						"h": 30
 					},
 					"frame": {
-						"x": 574,
-						"y": 561,
+						"x": 571,
+						"y": 621,
 						"w": 210,
 						"h": 30
-					}
-				},
-				{
-					"filename": "WarriorLeftAttack03.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 240,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 15,
-						"y": 10,
-						"w": 210,
-						"h": 31
-					},
-					"frame": {
-						"x": 570,
-						"y": 591,
-						"w": 210,
-						"h": 31
 					}
 				},
 				{
@@ -1431,31 +1473,10 @@
 						"h": 30
 					},
 					"frame": {
-						"x": 570,
-						"y": 622,
+						"x": 568,
+						"y": 651,
 						"w": 205,
 						"h": 30
-					}
-				},
-				{
-					"filename": "PossesedDownLand.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 192,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 6,
-						"y": 3,
-						"w": 171,
-						"h": 38
-					},
-					"frame": {
-						"x": 568,
-						"y": 652,
-						"w": 171,
-						"h": 38
 					}
 				},
 				{
@@ -1473,10 +1494,31 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 784,
-						"y": 561,
+						"x": 785,
+						"y": 559,
 						"w": 166,
 						"h": 34
+					}
+				},
+				{
+					"filename": "PossesedUpLand.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 3,
+						"w": 170,
+						"h": 39
+					},
+					"frame": {
+						"x": 781,
+						"y": 593,
+						"w": 170,
+						"h": 39
 					}
 				},
 				{
@@ -1494,9 +1536,30 @@
 						"h": 38
 					},
 					"frame": {
-						"x": 780,
-						"y": 595,
+						"x": 781,
+						"y": 632,
 						"w": 170,
+						"h": 38
+					}
+				},
+				{
+					"filename": "PossesedDownLand.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 171,
+						"h": 38
+					},
+					"frame": {
+						"x": 773,
+						"y": 670,
+						"w": 171,
 						"h": 38
 					}
 				},
@@ -1515,31 +1578,10 @@
 						"h": 38
 					},
 					"frame": {
-						"x": 775,
-						"y": 633,
+						"x": 489,
+						"y": 681,
 						"w": 171,
 						"h": 38
-					}
-				},
-				{
-					"filename": "PossesedUpLand.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 192,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 3,
-						"w": 170,
-						"h": 39
-					},
-					"frame": {
-						"x": 739,
-						"y": 671,
-						"w": 170,
-						"h": 39
 					}
 				},
 				{
@@ -1557,8 +1599,8 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 490,
-						"y": 690,
+						"x": 484,
+						"y": 719,
 						"w": 169,
 						"h": 34
 					}
@@ -1578,50 +1620,8 @@
 						"h": 35
 					},
 					"frame": {
-						"x": 484,
-						"y": 724,
-						"w": 169,
-						"h": 35
-					}
-				},
-				{
-					"filename": "GoblinSlingerRightJump.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 192,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 7,
-						"w": 169,
-						"h": 34
-					},
-					"frame": {
 						"x": 483,
-						"y": 759,
-						"w": 169,
-						"h": 34
-					}
-				},
-				{
-					"filename": "GoblinSlingerRightLand.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 192,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 9,
-						"y": 7,
-						"w": 169,
-						"h": 35
-					},
-					"frame": {
-						"x": 475,
-						"y": 793,
+						"y": 753,
 						"w": 169,
 						"h": 35
 					}
@@ -1642,7 +1642,7 @@
 					},
 					"frame": {
 						"x": 475,
-						"y": 828,
+						"y": 788,
 						"w": 168,
 						"h": 38
 					}
@@ -1663,9 +1663,30 @@
 					},
 					"frame": {
 						"x": 475,
-						"y": 866,
+						"y": 826,
 						"w": 167,
 						"h": 39
+					}
+				},
+				{
+					"filename": "PossesedLeftJump.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 167,
+						"h": 38
+					},
+					"frame": {
+						"x": 475,
+						"y": 865,
+						"w": 167,
+						"h": 38
 					}
 				},
 				{
@@ -1684,13 +1705,13 @@
 					},
 					"frame": {
 						"x": 475,
-						"y": 905,
+						"y": 903,
 						"w": 167,
 						"h": 33
 					}
 				},
 				{
-					"filename": "PossesedDownHurt.png",
+					"filename": "GoblinSlingerRightLand.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -1698,16 +1719,58 @@
 						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 10,
-						"y": 9,
+						"x": 9,
+						"y": 7,
 						"w": 169,
-						"h": 32
+						"h": 35
 					},
 					"frame": {
-						"x": 471,
-						"y": 938,
+						"x": 472,
+						"y": 936,
 						"w": 169,
-						"h": 32
+						"h": 35
+					}
+				},
+				{
+					"filename": "GoblinSlingerRightJump.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 7,
+						"w": 169,
+						"h": 34
+					},
+					"frame": {
+						"x": 472,
+						"y": 971,
+						"w": 169,
+						"h": 34
+					}
+				},
+				{
+					"filename": "Punk_hurt.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 14,
+						"w": 65,
+						"h": 34
+					},
+					"frame": {
+						"x": 660,
+						"y": 681,
+						"w": 65,
+						"h": 34
 					}
 				},
 				{
@@ -1725,8 +1788,8 @@
 						"h": 33
 					},
 					"frame": {
-						"x": 659,
-						"y": 710,
+						"x": 725,
+						"y": 708,
 						"w": 169,
 						"h": 33
 					}
@@ -1747,30 +1810,9 @@
 					},
 					"frame": {
 						"x": 653,
-						"y": 743,
+						"y": 741,
 						"w": 167,
 						"h": 33
-					}
-				},
-				{
-					"filename": "PossesedLeftJump.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 192,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 12,
-						"y": 4,
-						"w": 167,
-						"h": 38
-					},
-					"frame": {
-						"x": 652,
-						"y": 776,
-						"w": 167,
-						"h": 38
 					}
 				},
 				{
@@ -1788,8 +1830,8 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 644,
-						"y": 814,
+						"x": 652,
+						"y": 774,
 						"w": 166,
 						"h": 34
 					}
@@ -1810,7 +1852,7 @@
 					},
 					"frame": {
 						"x": 643,
-						"y": 848,
+						"y": 808,
 						"w": 166,
 						"h": 36
 					}
@@ -1831,13 +1873,13 @@
 					},
 					"frame": {
 						"x": 642,
-						"y": 884,
+						"y": 844,
 						"w": 165,
 						"h": 36
 					}
 				},
 				{
-					"filename": "GoblinSlingerUpJump.png",
+					"filename": "PossesedRightJump.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -1845,16 +1887,16 @@
 						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 15,
-						"y": 6,
-						"w": 165,
-						"h": 35
+						"x": 17,
+						"y": 4,
+						"w": 163,
+						"h": 38
 					},
 					"frame": {
 						"x": 642,
-						"y": 920,
-						"w": 165,
-						"h": 35
+						"y": 880,
+						"w": 163,
+						"h": 38
 					}
 				},
 				{
@@ -1872,9 +1914,51 @@
 						"h": 35
 					},
 					"frame": {
-						"x": 828,
-						"y": 710,
+						"x": 642,
+						"y": 918,
 						"w": 164,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GoblinSlingerUpJump.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 6,
+						"w": 165,
+						"h": 35
+					},
+					"frame": {
+						"x": 641,
+						"y": 953,
+						"w": 165,
+						"h": 35
+					}
+				},
+				{
+					"filename": "GoblinSlingerDownLand.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 6,
+						"w": 163,
+						"h": 35
+					},
+					"frame": {
+						"x": 820,
+						"y": 741,
+						"w": 163,
 						"h": 35
 					}
 				},
@@ -1893,8 +1977,8 @@
 						"h": 35
 					},
 					"frame": {
-						"x": 820,
-						"y": 745,
+						"x": 818,
+						"y": 776,
 						"w": 166,
 						"h": 35
 					}
@@ -1914,8 +1998,8 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 819,
-						"y": 780,
+						"x": 809,
+						"y": 811,
 						"w": 164,
 						"h": 34
 					}
@@ -1935,52 +2019,10 @@
 						"h": 34
 					},
 					"frame": {
-						"x": 810,
-						"y": 814,
+						"x": 807,
+						"y": 845,
 						"w": 164,
 						"h": 34
-					}
-				},
-				{
-					"filename": "PossesedRightJump.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 192,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 17,
-						"y": 4,
-						"w": 163,
-						"h": 38
-					},
-					"frame": {
-						"x": 809,
-						"y": 848,
-						"w": 163,
-						"h": 38
-					}
-				},
-				{
-					"filename": "GoblinSlingerDownLand.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 192,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 14,
-						"y": 6,
-						"w": 163,
-						"h": 35
-					},
-					"frame": {
-						"x": 807,
-						"y": 886,
-						"w": 163,
-						"h": 35
 					}
 				},
 				{
@@ -1999,9 +2041,30 @@
 					},
 					"frame": {
 						"x": 807,
-						"y": 921,
+						"y": 879,
 						"w": 163,
 						"h": 33
+					}
+				},
+				{
+					"filename": "Punk_idle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 192,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 14,
+						"w": 161,
+						"h": 34
+					},
+					"frame": {
+						"x": 806,
+						"y": 912,
+						"w": 161,
+						"h": 34
 					}
 				},
 				{
@@ -2019,31 +2082,10 @@
 						"h": 33
 					},
 					"frame": {
-						"x": 807,
-						"y": 954,
+						"x": 806,
+						"y": 946,
 						"w": 159,
 						"h": 33
-					}
-				},
-				{
-					"filename": "necklace_01a.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 48,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 0,
-						"w": 42,
-						"h": 48
-					},
-					"frame": {
-						"x": 974,
-						"y": 814,
-						"w": 42,
-						"h": 48
 					}
 				},
 				{
@@ -2061,8 +2103,29 @@
 						"h": 33
 					},
 					"frame": {
-						"x": 966,
-						"y": 954,
+						"x": 894,
+						"y": 708,
+						"w": 45,
+						"h": 33
+					}
+				},
+				{
+					"filename": "boots_01b.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 9,
+						"w": 45,
+						"h": 33
+					},
+					"frame": {
+						"x": 939,
+						"y": 708,
 						"w": 45,
 						"h": 33
 					}
@@ -2083,72 +2146,9 @@
 					},
 					"frame": {
 						"x": 884,
-						"y": 430,
+						"y": 433,
 						"w": 48,
 						"h": 42
-					}
-				},
-				{
-					"filename": "necklace_01b.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 48,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 0,
-						"w": 42,
-						"h": 48
-					},
-					"frame": {
-						"x": 932,
-						"y": 398,
-						"w": 42,
-						"h": 48
-					}
-				},
-				{
-					"filename": "ring_01a.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 48,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 9,
-						"y": 6,
-						"w": 30,
-						"h": 36
-					},
-					"frame": {
-						"x": 986,
-						"y": 745,
-						"w": 30,
-						"h": 36
-					}
-				},
-				{
-					"filename": "boots_01b.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 48,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 9,
-						"w": 45,
-						"h": 33
-					},
-					"frame": {
-						"x": 909,
-						"y": 671,
-						"w": 45,
-						"h": 33
 					}
 				},
 				{
@@ -2166,8 +2166,8 @@
 						"h": 42
 					},
 					"frame": {
-						"x": 932,
-						"y": 446,
+						"x": 934,
+						"y": 401,
 						"w": 48,
 						"h": 42
 					}
@@ -2187,77 +2187,14 @@
 						"h": 42
 					},
 					"frame": {
-						"x": 881,
-						"y": 472,
+						"x": 932,
+						"y": 443,
 						"w": 48,
 						"h": 42
 					}
 				},
 				{
-					"filename": "helmet_01a.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 48,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 3,
-						"w": 42,
-						"h": 45
-					},
-					"frame": {
-						"x": 879,
-						"y": 514,
-						"w": 42,
-						"h": 45
-					}
-				},
-				{
-					"filename": "sword_01a.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 48,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 48,
-						"h": 48
-					},
-					"frame": {
-						"x": 929,
-						"y": 488,
-						"w": 48,
-						"h": 48
-					}
-				},
-				{
-					"filename": "necklace_01d.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 48,
-						"h": 48
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 0,
-						"w": 42,
-						"h": 48
-					},
-					"frame": {
-						"x": 974,
-						"y": 366,
-						"w": 42,
-						"h": 48
-					}
-				},
-				{
-					"filename": "ring_01b.png",
+					"filename": "ring_01a.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -2278,7 +2215,7 @@
 					}
 				},
 				{
-					"filename": "ring_01d.png",
+					"filename": "ring_01b.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -2299,150 +2236,24 @@
 					}
 				},
 				{
-					"filename": "helmet_01b.png",
+					"filename": "sword_01a.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 48,
 						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 3,
-						"y": 3,
-						"w": 42,
-						"h": 45
-					},
-					"frame": {
-						"x": 972,
-						"y": 862,
-						"w": 42,
-						"h": 45
-					}
-				},
-				{
-					"filename": "helmet_01d.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
+						"x": 0,
+						"y": 0,
 						"w": 48,
 						"h": 48
 					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 3,
-						"w": 42,
-						"h": 45
-					},
 					"frame": {
-						"x": 970,
-						"y": 907,
-						"w": 42,
-						"h": 45
-					}
-				},
-				{
-					"filename": "knight_m_idle_anim_f0.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 28
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 8,
-						"w": 15,
-						"h": 20
-					},
-					"frame": {
-						"x": 659,
-						"y": 690,
-						"w": 15,
-						"h": 20
-					}
-				},
-				{
-					"filename": "knight_m_idle_anim_f1.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 28
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 8,
-						"w": 15,
-						"h": 20
-					},
-					"frame": {
-						"x": 674,
-						"y": 690,
-						"w": 15,
-						"h": 20
-					}
-				},
-				{
-					"filename": "knight_m_idle_anim_f2.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 28
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 8,
-						"w": 15,
-						"h": 20
-					},
-					"frame": {
-						"x": 689,
-						"y": 690,
-						"w": 15,
-						"h": 20
-					}
-				},
-				{
-					"filename": "knight_m_run_anim_f0.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 28
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 7,
-						"w": 15,
-						"h": 20
-					},
-					"frame": {
-						"x": 704,
-						"y": 690,
-						"w": 15,
-						"h": 20
-					}
-				},
-				{
-					"filename": "knight_m_run_anim_f1.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 28
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 6,
-						"w": 15,
-						"h": 20
-					},
-					"frame": {
-						"x": 719,
-						"y": 690,
-						"w": 15,
-						"h": 20
+						"x": 881,
+						"y": 475,
+						"w": 48,
+						"h": 48
 					}
 				},
 				{
@@ -2460,35 +2271,35 @@
 						"h": 48
 					},
 					"frame": {
-						"x": 950,
-						"y": 536,
+						"x": 929,
+						"y": 485,
 						"w": 48,
 						"h": 48
 					}
 				},
 				{
-					"filename": "sword_01d.png",
+					"filename": "ring_01d.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 48,
 						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 48,
-						"h": 48
+						"x": 9,
+						"y": 6,
+						"w": 30,
+						"h": 36
 					},
 					"frame": {
-						"x": 950,
-						"y": 584,
-						"w": 48,
-						"h": 48
+						"x": 880,
+						"y": 523,
+						"w": 30,
+						"h": 36
 					}
 				},
 				{
-					"filename": "knight_m_idle_anim_f3.png",
+					"filename": "knight_m_hit_anim_f0.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -2496,16 +2307,16 @@
 						"h": 28
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 9,
-						"w": 15,
-						"h": 19
+						"x": 1,
+						"y": 1,
+						"w": 14,
+						"h": 23
 					},
 					"frame": {
-						"x": 739,
-						"y": 652,
-						"w": 15,
-						"h": 19
+						"x": 0,
+						"y": 982,
+						"w": 14,
+						"h": 23
 					}
 				},
 				{
@@ -2530,45 +2341,66 @@
 					}
 				},
 				{
-					"filename": "chest_empty_open_anim_f1.png",
+					"filename": "necklace_01a.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 16,
-						"h": 16
+						"w": 48,
+						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 15
+						"x": 3,
+						"y": 0,
+						"w": 42,
+						"h": 48
 					},
 					"frame": {
-						"x": 574,
-						"y": 546,
-						"w": 16,
-						"h": 15
+						"x": 951,
+						"y": 533,
+						"w": 42,
+						"h": 48
 					}
 				},
 				{
-					"filename": "chest_full_open_anim_f1.png",
+					"filename": "necklace_01b.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 16,
-						"h": 16
+						"w": 48,
+						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 15
+						"x": 3,
+						"y": 0,
+						"w": 42,
+						"h": 48
 					},
 					"frame": {
-						"x": 590,
-						"y": 546,
-						"w": 16,
-						"h": 15
+						"x": 951,
+						"y": 581,
+						"w": 42,
+						"h": 48
+					}
+				},
+				{
+					"filename": "helmet_01a.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 42,
+						"h": 45
+					},
+					"frame": {
+						"x": 951,
+						"y": 629,
+						"w": 42,
+						"h": 45
 					}
 				},
 				{
@@ -2586,73 +2418,94 @@
 						"h": 33
 					},
 					"frame": {
-						"x": 950,
-						"y": 632,
+						"x": 944,
+						"y": 674,
 						"w": 45,
 						"h": 33
 					}
 				},
 				{
-					"filename": "chest_empty_open_anim_f0.png",
+					"filename": "helmet_01b.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 16,
-						"h": 16
+						"w": 48,
+						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 2,
-						"w": 16,
-						"h": 14
+						"x": 3,
+						"y": 3,
+						"w": 42,
+						"h": 45
 					},
 					"frame": {
-						"x": 490,
-						"y": 676,
-						"w": 16,
-						"h": 14
+						"x": 973,
+						"y": 811,
+						"w": 42,
+						"h": 45
 					}
 				},
 				{
-					"filename": "chest_full_open_anim_f0.png",
+					"filename": "helmet_01d.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 16,
-						"h": 16
+						"w": 48,
+						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 2,
-						"w": 16,
-						"h": 14
+						"x": 3,
+						"y": 3,
+						"w": 42,
+						"h": 45
 					},
 					"frame": {
-						"x": 490,
-						"y": 676,
-						"w": 16,
-						"h": 14
+						"x": 971,
+						"y": 856,
+						"w": 42,
+						"h": 45
 					}
 				},
 				{
-					"filename": "knight_m_hit_anim_f0.png",
+					"filename": "necklace_01d.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
-						"w": 16,
-						"h": 28
+						"w": 48,
+						"h": 48
 					},
 					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 14,
-						"h": 23
+						"x": 3,
+						"y": 0,
+						"w": 42,
+						"h": 48
 					},
 					"frame": {
-						"x": 976,
-						"y": 242,
-						"w": 14,
-						"h": 23
+						"x": 970,
+						"y": 901,
+						"w": 42,
+						"h": 48
+					}
+				},
+				{
+					"filename": "sword_01d.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 48
+					},
+					"frame": {
+						"x": 965,
+						"y": 949,
+						"w": 48,
+						"h": 48
 					}
 				},
 				{
@@ -2670,8 +2523,8 @@
 						"h": 22
 					},
 					"frame": {
-						"x": 360,
-						"y": 517,
+						"x": 653,
+						"y": 719,
 						"w": 15,
 						"h": 22
 					}
@@ -2691,10 +2544,115 @@
 						"h": 21
 					},
 					"frame": {
+						"x": 360,
+						"y": 517,
+						"w": 15,
+						"h": 21
+					}
+				},
+				{
+					"filename": "knight_m_idle_anim_f0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 8,
+						"w": 15,
+						"h": 20
+					},
+					"frame": {
 						"x": 276,
 						"y": 647,
 						"w": 15,
-						"h": 21
+						"h": 20
+					}
+				},
+				{
+					"filename": "knight_m_idle_anim_f1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 8,
+						"w": 15,
+						"h": 20
+					},
+					"frame": {
+						"x": 429,
+						"y": 973,
+						"w": 15,
+						"h": 20
+					}
+				},
+				{
+					"filename": "knight_m_idle_anim_f2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 8,
+						"w": 15,
+						"h": 20
+					},
+					"frame": {
+						"x": 725,
+						"y": 681,
+						"w": 15,
+						"h": 20
+					}
+				},
+				{
+					"filename": "knight_m_run_anim_f0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 15,
+						"h": 20
+					},
+					"frame": {
+						"x": 979,
+						"y": 305,
+						"w": 15,
+						"h": 20
+					}
+				},
+				{
+					"filename": "knight_m_run_anim_f1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 15,
+						"h": 20
+					},
+					"frame": {
+						"x": 910,
+						"y": 523,
+						"w": 15,
+						"h": 20
 					}
 				},
 				{
@@ -2712,10 +2670,31 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 455,
-						"y": 280,
+						"x": 910,
+						"y": 543,
 						"w": 16,
 						"h": 16
+					}
+				},
+				{
+					"filename": "knight_m_idle_anim_f3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 15,
+						"h": 19
+					},
+					"frame": {
+						"x": 14,
+						"y": 982,
+						"w": 15,
+						"h": 19
 					}
 				},
 				{
@@ -2733,8 +2712,8 @@
 						"h": 11
 					},
 					"frame": {
-						"x": 260,
-						"y": 969,
+						"x": 1007,
+						"y": 0,
 						"w": 10,
 						"h": 11
 					}
@@ -2754,8 +2733,8 @@
 						"h": 11
 					},
 					"frame": {
-						"x": 979,
-						"y": 303,
+						"x": 1007,
+						"y": 11,
 						"w": 10,
 						"h": 11
 					}
@@ -2775,10 +2754,94 @@
 						"h": 11
 					},
 					"frame": {
-						"x": 974,
-						"y": 414,
+						"x": 1007,
+						"y": 22,
 						"w": 10,
 						"h": 11
+					}
+				},
+				{
+					"filename": "chest_empty_open_anim_f1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 455,
+						"y": 280,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "chest_full_open_anim_f1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 641,
+						"y": 988,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "chest_empty_open_anim_f0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 16,
+						"h": 14
+					},
+					"frame": {
+						"x": 375,
+						"y": 517,
+						"w": 16,
+						"h": 14
+					}
+				},
+				{
+					"filename": "chest_full_open_anim_f0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 16,
+						"h": 14
+					},
+					"frame": {
+						"x": 375,
+						"y": 517,
+						"w": 16,
+						"h": 14
 					}
 				},
 				{
@@ -2796,8 +2859,8 @@
 						"h": 11
 					},
 					"frame": {
-						"x": 985,
-						"y": 170,
+						"x": 1007,
+						"y": 33,
 						"w": 10,
 						"h": 11
 					}
@@ -2838,29 +2901,8 @@
 						"h": 7
 					},
 					"frame": {
-						"x": 570,
-						"y": 578,
-						"w": 4,
-						"h": 7
-					}
-				},
-				{
-					"filename": "coin_anim_f3.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 8,
-						"h": 8
-					},
-					"spriteSourceSize": {
-						"x": 2,
-						"y": 1,
-						"w": 4,
-						"h": 7
-					},
-					"frame": {
-						"x": 970,
-						"y": 366,
+						"x": 925,
+						"y": 523,
 						"w": 4,
 						"h": 7
 					}
@@ -2885,6 +2927,27 @@
 						"w": 2,
 						"h": 7
 					}
+				},
+				{
+					"filename": "coin_anim_f3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 8,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 4,
+						"h": 7
+					},
+					"frame": {
+						"x": 1013,
+						"y": 856,
+						"w": 4,
+						"h": 7
+					}
 				}
 			]
 		}
@@ -2892,6 +2955,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:1aec6bb003ef843a2d917fc5ac61b160:be53c0dc0363b36894c1a1cade97c97d:1eabdf11f75e3a4fe3147baf7b5be24b$"
+		"smartupdate": "$TexturePacker:SmartUpdate:6e91d5e2070c9c7a87ce9599b99afa53:8684a40bf6f68904d7370861c3e873ad:1eabdf11f75e3a4fe3147baf7b5be24b$"
 	}
 }
