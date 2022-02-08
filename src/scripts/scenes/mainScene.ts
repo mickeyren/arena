@@ -134,6 +134,8 @@ export default class MainScene extends Phaser.Scene {
     this.input.keyboard.on('keydown-B', (event) => {
       this.scene.launch('BattleScene')
     })
+
+    this.scene.launch('ChatScene')
   }
 
   getStopFrame(direction) {

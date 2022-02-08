@@ -7,9 +7,10 @@ import GridEngine from 'grid-engine'
 // Rex Plugins
 import UIPlugin from 'phaser3-rex-plugins/templates/ui/ui-plugin.js'
 import InventoryScene from './scenes/inventoryScene'
+import ChatScene from './scenes/chatScene'
 
-const DEFAULT_WIDTH = 720
-const DEFAULT_HEIGHT = 496
+const DEFAULT_WIDTH = 375
+const DEFAULT_HEIGHT = 812
 
 const config = {
   type: Phaser.AUTO,
@@ -21,7 +22,7 @@ const config = {
     width: DEFAULT_WIDTH,
     height: DEFAULT_HEIGHT
   },
-  scene: [PreloadScene, MainScene, BattleScene, InventoryScene],
+  scene: [PreloadScene, MainScene, BattleScene, InventoryScene, ChatScene],
   physics: {
     default: 'arcade',
     arcade: {
